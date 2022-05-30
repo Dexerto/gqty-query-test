@@ -23,30 +23,9 @@ function Header({
         <div className={styles['title-wrap']}>
           <p className={styles['site-title']}>
             <Link href="/">
-              <a>{title}</a>
+              <a>Home</a>
             </Link>
           </p>
-          {description && <p className={styles.description}>{description}</p>}
-        </div>
-        <div className={styles.menu}>
-          <ul>
-            {links?.map((link) => (
-              <li key={`${link.label}$-menu`}>
-                <Link href={link.url ?? ''}>
-                  <a href={link.url}>{link.label}</a>
-                </Link>
-              </li>
-            ))}
-            <li>
-              <Link href="https://github.com/wpengine/faustjs">
-                <a
-                  className="button"
-                  href="https://github.com/wpengine/faustjs">
-                  GitHub
-                </a>
-              </Link>
-            </li>
-          </ul>
         </div>
       </div>
     </header>

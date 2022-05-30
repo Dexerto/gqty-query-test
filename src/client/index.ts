@@ -20,6 +20,14 @@ export const client = getClient<
   scalarsEnumsHash,
 });
 
+import('@gqty/logger').then(({ createLogger }) => {
+	const logger = createLogger(client.client, {
+		// Custom options...
+	});
+
+	logger.start();
+});
+
 export function serverClient(req: IncomingMessage) {
   return getClient<GeneratedSchema, SchemaObjectTypesNames, SchemaObjectTypes>({
     schema: generatedSchema,
