@@ -90,10 +90,10 @@
   dependencies:
     react-ssr-prepass "^1.4.0"
 
-"@gqty/utils@^1.0.0-alpha-3907d96.0":
-  version "1.0.0-alpha-3907d96.0"
-  resolved "https://registry.yarnpkg.com/@gqty/utils/-/utils-1.0.0-alpha-3907d96.0.tgz#49f14e843bc0a837b9e22c31d2554dd5c3dd4d66"
-  integrity sha512-JmF2LYmLahU4uM4FB/fIlxWMbchMNy3r0EDg5F1E61/ZCWPpniU7s7p1lEtj66uaqKoKaS53PgpdX3olEx8Eaw==
+"@gqty/utils@^1.0.0-alpha-87b2c46.0":
+  version "1.0.0-alpha-87b2c46.0"
+  resolved "https://registry.yarnpkg.com/@gqty/utils/-/utils-1.0.0-alpha-87b2c46.0.tgz#687cd0b877194cc9dce86dbc9896d1e1af7ebe9b"
+  integrity sha512-om2stANzVBafg5MnxXzCjhSVdKHpPnhx5UZ4zdA6YjPqShnKyM3CqqSpI6dkwiIoniFmFXQ5kOFIjIH8xkMesA==
 
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"
@@ -1155,12 +1155,12 @@ globby@^11.1.0:
     merge2 "^1.4.1"
     slash "^3.0.0"
 
-gqty@^2.1.0, gqty@^2.2.0, "gqty@npm:gqty@2.3.0-alpha-3907d96.0":
-  version "2.3.0-alpha-3907d96.0"
-  resolved "https://registry.yarnpkg.com/gqty/-/gqty-2.3.0-alpha-3907d96.0.tgz#6080b7175ebb938f29f8e969ca8e4478c1cf6ca9"
-  integrity sha512-K1Q9F/4oFWjf1GB2736H+YKWtMiNPEmWUT++pCOFAIPfyX9/AZ9tZO0RNbZ1uttZtXKzGnHM4l3X1wWqZvXhjw==
+gqty@^2.1.0, gqty@^2.2.0, "gqty@npm:gqty@2.3.0-alpha-87b2c46.0":
+  version "2.3.0-alpha-87b2c46.0"
+  resolved "https://registry.yarnpkg.com/gqty/-/gqty-2.3.0-alpha-87b2c46.0.tgz#48be1fc1250496e4409b20b1ae19afdcf397bbff"
+  integrity sha512-020N7u9EpKXDQF5TViZP2BEvpdXbR1Ej6joue1PP6R5iPIHzqhN4TcVz94tJLCTWAYM351rhTGNBe2hRE1I2eA==
   dependencies:
-    "@gqty/utils" "^1.0.0-alpha-3907d96.0"
+    "@gqty/utils" "^1.0.0-alpha-87b2c46.0"
     lodash "^4.17.21"
 
 graphql@>=15.6:
